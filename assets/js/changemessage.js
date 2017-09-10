@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById("startBttn").addEventListener("click", changeMessage);
+});
+
 function changeMessage() {
   for (var i = 0; i < 4; i++) {
     document.getElementById(i + "line").innerHTML = lines2[i][(Math.floor(Math.random() * lines2[i].length))];
