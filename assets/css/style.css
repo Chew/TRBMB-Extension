@@ -1,10 +1,14 @@
 html, body {
   margin: 0;
   padding: 0;
-  height: 600px;
-  width: 800px;
+  height: 155px;
+  width: 420px;
   background-color: #9AE8B6;
   color: #4B37E8;
+}
+
+p {
+  font-size: 120%;
 }
 
 div.wrap {
@@ -36,7 +40,7 @@ body {
 
 footer {
   position: absolute;
-  bottom: 5%;
+  bottom: -30%;
   width: 100%;
 }
 
@@ -46,7 +50,7 @@ footer a {
 
 #startBttn {
   color: black;
-  font-size: 0.8em;
+  font-size: 12px;
   height: 25px;
   width: 150px;
 }
