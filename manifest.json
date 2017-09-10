@@ -1,0 +1,19 @@
+{
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "TRBMB"
+  },
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "description": "TRBMB. Right from your browser",
+  "homepage_url": "http://trbmb.chew.pw",
+  "icons": {
+    "128": "icons/128.png",
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png"
+  },
+  "manifest_version": 2,
+  "minimum_chrome_version": "17.0",
+  "name": "TRBMB-Chrome",
+  "version": "1.0"
+}
